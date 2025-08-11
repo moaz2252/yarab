@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 export default App
 import './App.css'
 import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
-import Home from './assets/Componants/home/home'
+import Home from './assets/Componants/Home/home'
 import About from './assets/Componants/About/about'
 import Portfolio from './assets/Componants/Portofolio/portfolio'
 import Contact from './assets/Componants/Contact/contact'
