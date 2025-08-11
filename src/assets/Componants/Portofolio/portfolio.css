@@ -1,0 +1,52 @@
+.por-image img{
+    cursor: pointer;
+}
+
+
+
+.por-image{
+    position: relative;
+}
+
+
+.por-image:hover .layer{
+    width: 93%;
+    height: 90% ;
+    background-color: rgba(26, 186, 159, 0.8);
+    position: absolute;
+    top: 5%;
+    /*z-index: 999;
+    */transition: all 0.5s;
+   
+}
+
+.cur{
+    /* top: 220px; */
+
+    backdrop-filter: blur(8px) ;
+    
+
+    /* background-color: rgba(0, 0, 0, 0.6); */
+
+    /* background-color: aqua; */
+    height: 100vh;
+
+    top: 5%;
+    
+}
+
+
+.layer i{
+    top: 50%;
+    right: 50%;
+    position: absolute;
+
+    color: white;
+    display: none;
+    /* font-size: 100px; */
+    
+}
+
+.por-image:hover i{
+    display: block;
+}

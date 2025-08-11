@@ -1,0 +1,26 @@
+.nav-col{
+    background-color: #2c3e50 !important;
+    color: white !important;
+}
+
+
+.active{
+    background-color: #1ABC9C !important;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+nav{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.noo{
+    background-color: #2c3e50 !important;
+}
